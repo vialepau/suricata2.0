@@ -1,0 +1,104 @@
+html {
+    font-family: 'Open Sans', sans-serif ;
+}
+
+h1{
+    color: #707070;
+    text-align: center;
+    font-weight: 700;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    
+}
+
+h5{
+    color: #373A3C;
+    font-weight: 700;
+}
+
+p{
+    color: #373A3C;
+    font-weight: 400;
+}
+.navbar-light .navbar-nav .nav-link {
+     color: white; 
+     font-weight: 400;
+}
+.centrado{
+    text-align: left;
+}
+#comidas{
+    margin-bottom: 50px;
+}
+#comidas.card {
+    margin-bottom: 50px;
+}
+.card{
+    margin-bottom: 64px;
+    margin: auto;
+}
+.card-body a{
+    margin-right: 25px;
+}
+.card div h5 p {
+    text-align: -webkit-center;
+}
+.cards{
+        background-color: #17A2B8;
+        height: 180px;
+        
+}
+
+.navbar, footer{
+    background-color: #E83E8C;
+}
+
+.test{
+    height: 100%;    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test h3{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 58px 0;
+}
+
+span{
+    margin-top: 3px;
+}
+
+.logo-footer{
+    height: 184px;
+    text-align: center;
+
+}
+.logo-footer img{
+    margin-top: 60px;
+    width: 100%;
+    max-width: 53px;
+    max-height: 100px;
+    height: 100px;
+
+}
+
+.suri img:hover{
+    transform: rotate(90deg);
+}
+
+@media only screen and (max-width: 760px) {
+    .logo-footer img{
+        max-width: 36px;
+        width: 100%;
+        margin-top: 60px;
+        height: 67px;
+    
+    }
+}
+
